@@ -1,0 +1,45 @@
+<%- include("partials/header.ejs") %>
+
+<h1 class="my-5 display-1">My Blog</h1>
+
+<a href="/create" class="btn btn-primary mb-5">Create New Post</a>
+
+<% if (locals.blogPosts.length > 0) { %>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Date Published</th>
+      <th>Author</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% for (const post of blogPosts) { %>
+    <tr>
+      <td><%= post.title %></td>
+      <td><%= post.datePublished.toLocaleDateString('en-US') %></td>
+      <td><%= post.author %></td>
+      <td>
+        <div class="d-flex flex-row justify-content-around">
+          <form action="/read" method="GET">
+            <input type="hidden" name="id" value="<%= post.id %>" />
+            <button class="btn btn-success" type="submit">Read</button>
+          </form>
+          <form action="/update" method="GET">
+            <input type="hidden" name="id" value="<%= post.id %>" />
+            <button class="btn btn-warning" type="submit">Update</button>
+          </form>
+          <form action="/delete" method="POST">
+            <input type="hidden" name="id" value="<%= post.id %>" />
+            <button class="btn btn-danger" type="submit">Delete</button>
+          </form>
+        </div>
+      </td>
+    </tr>
+    <% } %>
+  </tbody>
+</table>
+<% } else { %>
+<p>There are no blog posts yet.</p>
+<% } %> <%- include("partials/footer.ejs") %>

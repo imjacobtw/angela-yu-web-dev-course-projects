@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") %>
+
+<h1 class="my-5 display-1"><%= post.title %></h1>
+
+<h2 class="fs-5 fw-medium fst-italic">Published by <%= post.author %> on <%= post.datePublished.toLocaleDateString('en-US') %></h2>
+
+<p class="my-5"><%- post.body %></p>
+
+<a href="/" class="btn btn-primary mb-5">
+  View Other Posts
+</a>
+
+<%- include("partials/footer.ejs") %>
