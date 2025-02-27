@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/create", (req, res) => {
-  res.render("create-post.ejs", {
+  res.render("create.ejs", {
     updateMode: false
   });
 });
@@ -41,7 +41,7 @@ app.get("/read", (req, res) => {
 app.get("/update", (req, res) => {
   const { id } = req.query;
   const post = blogPosts.filter((post) => post.id == id)[0];
-  res.render("create-post.ejs", {
+  res.render("create.ejs", {
     updateMode: true,
     post: post,
   })
