@@ -19,13 +19,19 @@ app.get("/", (req, res) => {
 
 app.get("/create", (req, res) => {
   res.render("create.ejs", {
-    updateMode: false
+    updateMode: false,
   });
 });
 
 app.post("/create", (req, res) => {
   const { title, author, body } = req.body;
-  const newBlogPost = new BlogPost(++lastBlogPostIndex, title, new Date(), author, body);
+  const newBlogPost = new BlogPost(
+    ++lastBlogPostIndex,
+    title,
+    new Date(),
+    author,
+    body
+  );
   blogPosts.push(newBlogPost);
   res.redirect("/");
 });
@@ -44,7 +50,7 @@ app.get("/update", (req, res) => {
   res.render("create.ejs", {
     updateMode: true,
     post: post,
-  })
+  });
 });
 
 app.post("/update", (req, res) => {
