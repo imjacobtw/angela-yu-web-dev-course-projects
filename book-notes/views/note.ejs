@@ -1,0 +1,18 @@
+<%- include('partials/header.ejs'); -%>
+
+<main>
+  <h1 style="margin-bottom: 24px;"><%= note.title %></h1>
+  <div class="note-img-wrapper" style="margin-bottom: 24px;">
+    <img src="<%= note.cover ?? '/images/unknown-cover.jpg' %>" alt="<%= note.title %>" />
+  </div>
+  <div class="note-info-wrapper" style="padding: 0;">
+    <p><span>ISBN:</span> <%= note.isbn %></p>
+    <p><span>Author:</span> <%= note.author %></p>
+    <p><span>Rating:</span> <%= note.rating %>/10</p>
+    <p><span>Date Read:</span> <%= note.date_read.toLocaleDateString("en-US") %></p>
+  </div>
+  <p><%= note.review %></p>
+  <a href="/">Return to Home Page</a>
+</main>
+
+<%- include('partials/footer.ejs'); -%>

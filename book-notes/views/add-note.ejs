@@ -1,0 +1,30 @@
+<%- include('partials/header.ejs'); -%>
+
+<main>
+  <h1>Add Note</h1>
+  <p>Please enter the information for your book note below.</p>
+
+  <form action="/add-note" method="POST">
+    <label for="isbn">ISBN:</label>
+    <input type="text" maxlength="13" name="isbn" required />
+
+    <label for="title">Title:</label>
+    <input type="text" name="title" required />
+
+    <label for="author">Author:</label>
+    <input type="text" name="author" required />
+
+    <label for="rating">Rating (0 to 10):</label>
+    <input type="number" min="0" max="10" name="rating" required />
+
+    <label for="review">Review:</label>
+    <textarea type="text" name="review" rows="5" required></textarea>
+
+    <label for="date_read">Date Read:</label>
+    <input type="date" name="date_read" required />
+
+    <button type="submit">Submit Note</button>
+  </form>
+</main>
+
+<%- include('partials/footer.ejs'); -%>
