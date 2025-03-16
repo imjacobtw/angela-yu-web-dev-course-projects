@@ -22,32 +22,32 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 
 ## Project List
 
-- Movie Ranking
-- Birthday Invite
-- Portfolio Website
-- Online Resume
-- Color Vocab Website
-- Motivational Poster Website
-- CSS Flag
-- Web Design Agency Website
-- Pricing Table
-- Mondrian Painting
-- TinDog Startup Website
-- Hotel Website Design
-- Personal Website
-- The Dicee Game
-- Drum Kit
-- The Simon Game
-- QR Code Generator
-- Secrets Access
-- Band Name Generator
-- Blog Web Application
-- Secrets
-- Use a Public API
-- Blog REST API
-- Permalist
-- Secrets Access with Authentication
-- Keeper App
+- [ ] Movie Ranking
+- [ ] Birthday Invite
+- [ ] Portfolio Website
+- [ ] Online Resume
+- [ ] Color Vocab Website
+- [ ] Motivational Poster Website
+- [ ] CSS Flag
+- [ ] Web Design Agency Website
+- [ ] Pricing Table
+- [ ] Mondrian Painting
+- [ ] TinDog Startup Website
+- [ ] Hotel Website Design
+- [ ] Personal Website
+- [ ] The Dicee Game
+- [ ] Drum Kit
+- [ ] The Simon Game
+- [x] [QR Code Generator](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/qr-code-generator)
+- [x] [Secrets Access](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/secrets-access)
+- [x] [Band Name Generator](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/band-generator)
+- [x] [Blog Web Application](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/blog-web-app)
+- [x] [Secrets](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/secrets)
+- [ ] Use a Public API
+- [x] [Blog REST API](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/blog-rest-api)
+- [x] [Permalist](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/permalist)
+- [x] [Secrets Access with Authentication](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/secrets-access-with-auth)
+- [x] [Keeper App](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/keeper-app)
 
 ## Information for Node.js Projects
 
