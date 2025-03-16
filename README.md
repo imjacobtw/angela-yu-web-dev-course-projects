@@ -46,6 +46,7 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 - [ ] Use a Public API
 - [x] [Blog REST API](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/blog-rest-api)
 - [x] [Permalist](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/permalist)
+- [x] [Book Notes](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/book-notes)
 - [x] [Secrets Access with Authentication](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/secrets-access-with-auth)
 - [x] [Keeper App](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/keeper-app)
 
