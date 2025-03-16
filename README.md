@@ -17,6 +17,7 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 - RESTful APIs
 - SQL
 - PostgreSQL
+- Passport
 - Git
 - ...and many more.
 
