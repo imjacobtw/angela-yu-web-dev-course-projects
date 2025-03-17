@@ -65,9 +65,9 @@ I have used the [dotenv](https://www.npmjs.com/package/dotenv) third-party Node.
 A web application for storing information on previously read books, such as summary notes, their ratings, and when the books were read. 
 
 #### Goals
-- Integrate public RESTful APIs with Axios.
-- Learn how to perform CRUD operations with a PostgreSQL database.
-- Reinforce Node.js and Express concepts.
+- Fetch data from public RESTful APIs using Axios.
+- Learn how to integrate a PostgreSQL database with the server.
+- Practice creating SQL queries for CRUD operations.
 
 #### Technologies
 - JavaScript
@@ -78,6 +78,24 @@ A web application for storing information on previously read books, such as summ
 - RESTful APIs
 - SQL
 - PostgreSQL
+
+### Secrets Access with Authentication
+
+#### Summary
+
+#### Goals
+- Learn how to securely store passwords with PostgreSQL and bcrypt.
+- Understand how to manage cookies and sessions for users.
+- Add third-party login capabilities through Google OAuth and Passport.
+
+#### Technologies
+- JavaScript
+- Node.js
+- Express
+- EJS
+- SQL
+- PostgreSQL
+- Passport
 
 ### Blog REST API
 
