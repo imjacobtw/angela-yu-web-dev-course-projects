@@ -9,16 +9,16 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 - Bootstrap
 - JavaScript
 - jQuery
-- React
 - Node.js
 - Express
 - EJS
+- Git
 - Axios
 - RESTful APIs
 - SQL
 - PostgreSQL
 - Passport
-- Git
+- React
 - ...and many more.
 
 ## Project List
@@ -27,7 +27,7 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 - [x] [Birthday Invite](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/birthday-invite)
 - [x] [Portfolio Website](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/portfolio-website)
 - [x] [Online Resume](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/online-resume)
-- [ ] Color Vocab Website
+- [x] [Color Vocab Website](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/color-vocab)
 - [ ] Motivational Poster Website
 - [ ] CSS Flag
 - [ ] Web Design Agency Website
