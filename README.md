@@ -23,8 +23,8 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 
 ## Project List
 
-- [x] Movie Ranking
-- [ ] Birthday Invite
+- [x] [Movie Ranking](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/movie-ranking)
+- [x] [Birthday Invite](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/birthday-invite)
 - [ ] Portfolio Website
 - [ ] Online Resume
 - [ ] Color Vocab Website
