@@ -56,3 +56,40 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 Projects that use Node.js will require you to run `npm install` before you are able to run them on your machine. If you are unsure whether a project uses Node.js or not, check for a `package.json` file in the project directory. After you have installed all of the dependencies, run `node index.js` to start the application. The Keeper App project uses Vite as a build tool, so you must run `npm run dev` to start Vite's development server.
 
 I have used the [dotenv](https://www.npmjs.com/package/dotenv) third-party Node.js package to store sensitive information in environment variables, such as passwords, Postgres connection URIs, and Google OAuth credentials. For projects that require such information, create a `.env` file in that project's directory with environment variables that match the name of the `process.env.VariableName` variables in the project code.
+
+## Showcase
+
+### Book Notes
+
+#### Summary
+A web application for storing information on previously read books, such as summary notes, their ratings, and when the books were read. 
+
+#### Goals
+- Integrate public RESTful APIs with Axios.
+- Learn how to perform CRUD operations with a PostgreSQL database.
+- Reinforce Node.js and Express concepts.
+
+#### Technologies
+- JavaScript
+- Node.js
+- Express
+- EJS
+- Axios
+- RESTful APIs
+- SQL
+- PostgreSQL
+
+### Blog REST API
+
+#### Summary
+A RESTful API that can be used to create, read, update, or delete blogs from a web server that stores blog data in-memory.
+
+#### Goals
+- Learn how to build a RESTful API.
+- Reinforce Node.js and Express concepts.
+
+#### Technologies
+- JavaScript
+- Node.js
+- Express
+- RESTful APIs
