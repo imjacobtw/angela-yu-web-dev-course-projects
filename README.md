@@ -23,7 +23,7 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 
 ## Project List
 
-- [ ] Movie Ranking
+- [x] Movie Ranking
 - [ ] Birthday Invite
 - [ ] Portfolio Website
 - [ ] Online Resume
