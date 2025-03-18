@@ -1,6 +1,6 @@
 # Angela Yu's Web Developer Course Projects
 
-This repository contains my project code from Dr. Angela Yu's Udemy course, [*The Complete Full-Stack Web Development Bootcamp*](https://www.udemy.com/course/the-complete-web-development-bootcamp/). Each project directory name corresponds with the name of the project in the course. 
+This repository contains my project code from Dr. Angela Yu's Udemy course, [*The Complete Full-Stack Web Development Bootcamp*](https://www.udemy.com/course/the-complete-web-development-bootcamp/).
 
 ## Technologies Learned
 
@@ -25,10 +25,10 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 
 - [x] [Movie Ranking](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/movie-ranking)
 - [x] [Birthday Invite](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/birthday-invite)
-- [x] [Portfolio Website](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/portfolio-website)
+- [x] [Portfolio](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/portfolio-website)
 - [x] [Online Resume](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/online-resume)
-- [x] [Color Vocab Website](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/color-vocab)
-- [ ] Motivational Poster Website
+- [x] [Color Vocab](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/color-vocab)
+- [x] [Motivational Meme Poster](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/motivational-meme-poster)
 - [ ] CSS Flag
 - [ ] Web Design Agency Website
 - [ ] Pricing Table
@@ -81,12 +81,13 @@ A web application for storing information on previously read books, such as summ
 
 ### Secrets Access with Authentication
 
-#### Summary
+#### 
+A web application for securely storing secrets of users. Users have the option of logging in using their Google Account.
 
 #### Goals
 - Learn how to securely store passwords with PostgreSQL and bcrypt.
 - Understand how to manage cookies and sessions for users.
-- Add third-party login capabilities through Google OAuth and Passport.
+- Add third-party login capabilities using Google OAuth and Passport.
 
 #### Technologies
 - JavaScript
