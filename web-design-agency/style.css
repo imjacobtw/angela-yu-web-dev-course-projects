@@ -1,0 +1,100 @@
+body {
+  background-color: #f2e9df;
+  box-sizing: border-box;
+  color: #1D1616;
+  font-family: "Merriweather", serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+body > * {
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+main {
+  min-height: 90vh;
+}
+
+#logo {
+  color: #FE4F2D;
+  margin: 0;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h1 span {
+  color: #015551;
+}
+
+#cards {
+  display: grid;
+  flex-grow: 1;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 2rem;
+  width: 100%;
+}
+
+.card {
+  background-color: #FAF1E6;
+  border-radius: 25px;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.card img {
+  float: left;
+  margin-right: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 50%;
+}
+
+.card h2 {
+  color: #57B4BA;
+  font-size: 2.5rem;
+}
+
+.card p {
+  font-size: 1.25rem;
+}
+
+footer {
+  background-color: #015551;
+  height: 10vh;
+}
+
+footer p {
+  color: #f2e9df;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: right;
+}
+
+footer p > span:nth-child(1) {
+  color: #57B4BA;
+}
+
+footer p > span:nth-child(2) {
+  color: #FE4F2D; 
+}
+
+@media (max-width: 1340px) {
+  .card img {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 880px) {
+  #cards {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
