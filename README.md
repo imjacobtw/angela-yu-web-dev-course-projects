@@ -31,7 +31,7 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 - [x] [Motivational Meme Poster](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/motivational-meme-poster)
 - [x] [Laos Flag](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/laos-flag)
 - [x] [Web Design Agency](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/web-design-agency)
-- [ ] Pricing Table
+- [x] [Pricing Table](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/pricing-table)
 - [ ] Mondrian Painting
 - [ ] TinDog Startup Website
 - [ ] Hotel Website Design
