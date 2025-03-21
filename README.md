@@ -32,7 +32,7 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 - [x] [Laos Flag](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/laos-flag)
 - [x] [Web Design Agency](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/web-design-agency)
 - [x] [Pricing Table](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/pricing-table)
-- [ ] Mondrian Painting
+- [x] [Mondrian Painting](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/mondrian-painting)
 - [ ] TinDog Startup Website
 - [ ] Hotel Website Design
 - [ ] Personal Website
