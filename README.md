@@ -33,7 +33,7 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 - [x] [Web Design Agency](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/web-design-agency)
 - [x] [Pricing Table](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/pricing-table)
 - [x] [Mondrian Painting](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/mondrian-painting)
-- [ ] TinDog Startup Website
+- [x] [TinDog Startup Website](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/tin-dog-startup)
 - [ ] Hotel Website Design
 - [ ] Personal Website
 - [ ] The Dicee Game
