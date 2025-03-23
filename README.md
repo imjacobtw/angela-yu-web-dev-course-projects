@@ -36,7 +36,7 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 - [x] [TinDog Startup Website](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/tin-dog-startup)
 - [x] [Hotel Website Design](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/hotel-web-design)
 - [ ] Personal Website
-- [ ] The Dicee Game
+- [x] [The Dicee Game](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/the-dicee-game)
 - [ ] Drum Kit
 - [ ] The Simon Game
 - [x] [QR Code Generator](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/qr-code-generator)
