@@ -37,7 +37,7 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 - [x] [Hotel Website Design](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/hotel-web-design)
 - [ ] Personal Website
 - [x] [The Dicee Game](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/the-dicee-game)
-- [ ] Drum Kit
+- [x] [Drum Kit](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/drum-kit)
 - [ ] The Simon Game
 - [x] [QR Code Generator](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/qr-code-generator)
 - [x] [Secrets Access](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/secrets-access)
