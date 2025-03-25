@@ -35,7 +35,7 @@ This repository contains my project code from Dr. Angela Yu's Udemy course, [*Th
 - [x] [Mondrian Painting](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/mondrian-painting)
 - [x] [TinDog Startup Website](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/tin-dog-startup)
 - [x] [Hotel Website Design](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/hotel-web-design)
-- [ ] Personal Website
+- [x] [Personal Site](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/personal-site)
 - [x] [The Dicee Game](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/the-dicee-game)
 - [x] [Drum Kit](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/drum-kit)
 - [x] [The Simon Game](https://github.com/imjacobtw/angela-yu-web-dev-course-projects/tree/main/the-simon-game)

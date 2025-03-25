@@ -1,0 +1,48 @@
+html {
+  background-color: #FCF8E8;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #1B1717;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.section-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  max-width: 100%;
+  width: 100vw;
+}
+
+.section-container > section {
+  height: 100%;
+  width: 1200px;
+}
+
+section > div {
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h1 > br {
+    display: none;
+  }
+}
