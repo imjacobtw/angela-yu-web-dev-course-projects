@@ -1,0 +1,83 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-image: url("/images/new-york.jpg");
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+}
+
+#overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: absolute;
+  width: 1200px;
+}
+
+#city-input-container {
+  align-items: center;
+  display: flex;
+  height: 20%;
+  justify-content: center;
+  width: 100%;
+}
+
+#city-input-container form {
+  align-items: center;
+  display: flex;
+  height: 30%;
+}
+
+#city-input-container input {
+  background-color: #F8F8F8;
+  border: none;
+  border-radius: 500px;
+  color: #323232;
+  font-size: 20px;
+  height: 100%;
+  margin-right: 20px;
+  text-align: center;
+}
+
+#city-input-container input:focus {
+  outline-width: 0;
+}
+
+#city-input-container button {
+  align-items: center;
+  aspect-ratio: 1/1;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 500px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  transition: 300ms ease-in-out all;
+}
+
+#city-input-container button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgba(1, 1, 1, 0.3);
+}
+
+#city-input-container button svg {
+  height: 70%;
+  width: 70%;
+}
+
+#city-input-container button:hover {
+  cursor: pointer;
+}
