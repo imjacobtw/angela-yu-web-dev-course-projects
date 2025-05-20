@@ -1,0 +1,73 @@
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  width: 100%;
+}
+
+select {
+  text-transform: capitalize;
+}
+
+form > * {
+  margin-left: 10px;
+}
+
+form > *:nth-child(7) {
+  margin-left: 0;
+}
+
+#recipes-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.recipes-grid-item {
+  align-items: center;
+  background-color: #6D8B74;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.recipes-grid-item > h2 {
+  align-items: center;
+  color: #EFEAD8;
+  display: flex;
+  flex-grow: 1;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.recipes-grid-item > img {
+  border-radius: 20px;
+}
+
+.recipes-grid-item > a {
+  background-color: #5F7161;
+  border-radius: 20px;
+  color: #EFEAD8;
+  margin-top: 20px;
+  padding: 10px;
+  text-decoration: none;
+  transition: all ease-in-out 300ms;
+}
+
+.recipes-grid-item > a:hover {
+  background-color: #EFEAD8;;
+  color: #5F7161;
+}

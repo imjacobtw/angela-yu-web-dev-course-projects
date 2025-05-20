@@ -1,5 +1,65 @@
-<%- include("partials/header.ejs") %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <title>Recipe Discovery Tool</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Discover a New Recipe</h1>
+      <form action="/searchRecipes" method="POST">
+        <input name="query" type="text" />
 
-<%- include("partials/footer.ejs") %>
+        <select name="cuisine">
+          <% for (const cuisine of SPOONACULAR_QUERY_PARAMS["cuisines"]) { %>
+            <option value="<%= cuisine %>"><%= cuisine %></option>
+          <% } %>
+        </select>
+
+        <select name="diet">
+          <% for (const diet of SPOONACULAR_QUERY_PARAMS["diets"]) { %>
+            <option value="<%= diet %>"><%= diet %></option>
+          <% } %>
+        </select>
+
+        <select name="intolerance">
+          <% for (const intolerance of SPOONACULAR_QUERY_PARAMS["intolerances"]) { %>
+            <option value="<%= intolerance %>"><%= intolerance %></option>
+          <% } %>
+        </select>
+
+        <select name="mealType">
+          <% for (const mealType of SPOONACULAR_QUERY_PARAMS["mealTypes"]) { %>
+            <option value="<%= mealType %>"><%= mealType %></option>
+          <% } %>
+        </select>
+
+        <button type="submit">Search</button>
+      </form>
+      <div id="recipes-grid">
+        <% if (recipes.length === 0) { %>
+          <p>There are no recipes for that search criteria.</p>
+        <% } else { %>
+          <% for (const recipe of recipes) { %>
+            <div class="recipes-grid-item">
+              <h2><%= recipe.title %></h2>
+              <img src="<%= recipe.image %>" />
+              <a href="/recipe/<%= recipe.id %>">View Recipe</a>
+            </div>
+          <% } %>
+        <% } %>
+      </div>
+    </main>
+  </body>
+</html>
